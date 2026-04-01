@@ -43,6 +43,18 @@ h1 {
     transform: scale(1.05);
 }
 
+    .secret-link {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 50px;
+    height: 50px;
+    z-index: 9999; /* Ensures it stays on top of everything else */
+    text-decoration: none;
+    cursor: default; /* Optional: keeps the cursor from changing to a pointer */
+    background: transparent;
+}
+    
 a.back {
     display: inline-block;
     margin-top: 30px;
@@ -67,5 +79,9 @@ a.back {
         <!-- Add more games below -->
 </div>
 
+</div>
+    <a href="09/index.html" class="secret-link" title="2009"></a>
+</div>
+    
 </body>
 </html>
